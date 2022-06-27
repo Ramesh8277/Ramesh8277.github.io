@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>validation</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <lable>Enter name</lable>
+                <input type="text" id="username">
+                <!--priting the message in html page we use div tag adding name and use innerHTML in js file-->
+                <div id="errorUserName"></div>
+            </div>
+            <div>
+                <lable>Enter email</lable>
+                <input type="text" id="email">
+                <div id="erroremail"></div>
+            </div>
+            <div>
+                <lable>Enter Password</lable>
+                <input type="text" id="password">
+                <div id="passworderror"></div>
+
+                </div>
+            <button type="button" onclick="register()">Register</button>
+        </form>
+        <script src="Form-validation-task.js"></script>
+    </body>
+</html>
